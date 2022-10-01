@@ -3,8 +3,6 @@ use std::{
     io::{prelude::*, BufReader},
     net::{TcpListener, TcpStream},
     process,
-    thread,
-    time::Duration,
 };
 use hello_web_server::ThreadPool;
 
